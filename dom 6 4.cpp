@@ -9,7 +9,7 @@ int main () {
         sum2 = sum2 + sum1;
         sum1 = sum1 * 2;
     }
-    cout << sum2 / 1000000 + (sum2 % 1000000 != 0)<< endl;
+    cout << sum2 / 1000000 + (sum2 % 1000000 != 0) << endl;
 
     return 0;
 }
